@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-image: linear-gradient(120deg,#f6d365,#fda085);
+    color: white;
+    min-height: 100vh;
+
+}
+
+header{
+    font-size: 1.25rem;
+}
+header,form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+form button{
+    color: #d88771;
+    background: white ;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+form button:hover {
+    background: #d88771;
+    color: white;
+}
+
+.fa-trash,fa-check{
+ pointer-events: none;
+ font-size: 40px;
+ 
+}
+.fa-trash{
+    color: crimson;
+    pointer-events: none;
+}
+.fa-check{
+    color: greenyellow;
+    font-size: 40px;
+    pointer-events: none;
+    
+}
+
+.todo-container{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    min-width: 50vw;
+    
+}
+.todo-container li{
+    margin: 10px;
+}
+.li-div{
+    display: flex;
+    align-items: center;
+    transition: 0.3 ease;
+   
+}
+.todo-container li{
+    list-style: none;
+    background-color: whitesmoke;
+  
+    color: black;
+    border-radius: 5px;
+}
+.completed{
+    background-color: black;
+}
+.li-li{
+    padding: 5px;
+    font-family: sans-serif;
+}
